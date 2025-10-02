@@ -1,12 +1,13 @@
 {
-	"name": "node dev container",
+  "name": "node dev container",
   "build": {
     "dockerfile": "Dockerfile"
   },
   "customizations": {
     "vscode": {
       "extensions": [
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "editorconfig.editorconfig"
       ]
     }
   },
